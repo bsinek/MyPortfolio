@@ -1,29 +1,46 @@
-# Python cache
-__pycache__/
+# ======================================
+# Python
+# ======================================
 *.py[cod]
 *.so
+__pycache__/
+*.egg
+*.egg-info/
+dist/
+build/
 
-# Virtual environments
-venv/
-env/
-
-# Django database
+# ======================================
+# Django
+# ======================================
 db.sqlite3
-
-# Environment variables
+*.sqlite3
+*.log
 .env
 
-# Media uploads (user-generated content)
+# Ignore media uploads (user-generated)
 media/
 
-# Collected static files (if using collectstatic)
+# Ignore collectstatic output (if using STATIC_ROOT)
 staticfiles/
+
+# ======================================
+# Virtual environments
+# ======================================
+env/
+venv/
+
+# ======================================
+# Editor & IDE settings
+# ======================================
+
+# PyCharm / JetBrains
+.idea/
 
 # VS Code
 .vscode/
 
-# macOS system files
+# ======================================
+# OS files
+# ======================================
 .DS_Store
-
-# Windows system files
 Thumbs.db
