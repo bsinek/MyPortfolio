@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# Django database
+db.sqlite3
+
+# Environment variables
+.env
+
+# Media uploads (user-generated content)
+media/
+
+# Collected static files (if using collectstatic)
+staticfiles/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
